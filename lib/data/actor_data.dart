@@ -1,0 +1,156 @@
+import '../models/actor_model.dart';
+
+class ActorData {
+  static final List<ActorModel> actors = [
+    ActorModel(
+      id: 'actor-1',
+      name: 'Dingdong Dantes',
+      alias: 'Kapuso Primetime King',
+      birthDate: 'August 2, 1980',
+      birthPlace: 'Quezon City, Philippines',
+      category: 'Drama / Cinema',
+      biography:
+          'Jose Sixto Gonzalez Dantes III, known professionally as Dingdong Dantes, is a Filipino actor, television presenter, and producer. He gained nationwide recognition for television hits including Marimar and Dyesebel, and co-starred in Rewind (2023), the highest-grossing Philippine film in box office history.',
+      imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
+      famousWorks: [
+        'Rewind (2023)',
+        'Seven Sundays (2017)',
+        'Sid & Aya: Not a Love Story (2018)',
+        'Descendants of the Sun PH (2020)',
+        'Marimar (2007)',
+      ],
+      awards: [
+        'Metro Manila Film Festival Best Actor (2023)',
+        'Gawad Tanglaw Best Actor',
+        'PMPC Star Awards for Movies Best Actor',
+      ],
+      yearsActive: 28,
+      rating: 4.9,
+    ),
+    ActorModel(
+      id: 'actor-2',
+      name: 'Piolo Pascual',
+      alias: 'The Ultimate Leading Man',
+      birthDate: 'January 12, 1977',
+      birthPlace: 'Manila, Philippines',
+      category: 'Romance / Drama',
+      biography:
+          'Piolo Jose Nonato Pascual is an award-winning Filipino actor, producer, and singer. Recognized as one of the most prolific leading men in Philippine cinema, his career includes monumental roles in Dekada \'70, Milan, and Starting Over Again.',
+      imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
+      famousWorks: [
+        'Dekada \'70 (2002)',
+        'Starting Over Again (2014)',
+        'Milan (2004)',
+        'Mallari (2023)',
+        'Lobo (2008)',
+      ],
+      awards: [
+        'FAMAS Best Actor',
+        'Gawad Urian Best Supporting Actor',
+        'Box Office Entertainment Awards King',
+      ],
+      yearsActive: 30,
+      rating: 4.9,
+    ),
+    ActorModel(
+      id: 'actor-3',
+      name: 'Jericho Rosales',
+      alias: 'Asian Drama King',
+      birthDate: 'September 22, 1979',
+      birthPlace: 'Quezon City, Philippines',
+      category: 'Drama / Indie',
+      biography:
+          'Jericho Vibar Rosales is an internationally acclaimed Filipino cinema and television actor. Known for his intense dramatic realism, he starred in the original Pangako Sa \'Yo and earned international recognition for indie productions such as Alagwa.',
+      imageUrl: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&q=80',
+      famousWorks: [
+        'Pangako Sa \'Yo (2000)',
+        'Walang Hanggan (2012)',
+        'Alagwa (2012)',
+        'Siargao (2017)',
+        'Halik (2018)',
+      ],
+      awards: [
+        'Newport Beach Film Festival Outstanding Achievement',
+        'Gawad Urian Best Actor',
+        'FAMAS Best Actor',
+      ],
+      yearsActive: 28,
+      rating: 4.8,
+    ),
+    ActorModel(
+      id: 'actor-4',
+      name: 'John Lloyd Cruz',
+      alias: 'Box Office King',
+      birthDate: 'June 24, 1983',
+      birthPlace: 'Pasay City, Philippines',
+      category: 'Romance / Comedy',
+      biography:
+          'John Lloyd Espidol Cruz is one of the most commercially successful and critically lauded actors in Philippine cinematic history. He is renowned for defining romantic dramas including One More Chance and A Very Special Love, alongside prestige films by Lav Diaz.',
+      imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80',
+      famousWorks: [
+        'One More Chance (2007)',
+        'A Very Special Love (2008)',
+        'The Mistress (2012)',
+        'Honor Thy Father (2015)',
+        'A Lullaby to the Sorrowful Mystery (2016)',
+      ],
+      awards: [
+        'FAMAS Best Actor',
+        'Gawad Urian Best Actor',
+        'Box Office King Multi-Year Awardee',
+      ],
+      yearsActive: 27,
+      rating: 4.9,
+    ),
+    ActorModel(
+      id: 'actor-5',
+      name: 'Coco Martin',
+      alias: 'Primetime Action King',
+      birthDate: 'November 1, 1981',
+      birthPlace: 'Quezon City, Philippines',
+      category: 'Action / Television',
+      biography:
+          'Rodel Pacheco Nacianceno, professionally known as Coco Martin, is a Filipino actor, director, and producer. Beginning in independent cinema under Brillante Mendoza, he rose to become the King of Philippine Primetime Television, headlining FPJ\'s Ang Probinsyano and Batang Quiapo.',
+      imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80',
+      famousWorks: [
+        'FPJ\'s Ang Probinsyano (2015-2022)',
+        'FPJ\'s Batang Quiapo (2023-Present)',
+        'Kinatay (2009)',
+        'Walang Hanggan (2012)',
+        'Noy (2010)',
+      ],
+      awards: [
+        'Gawad Urian Best Actor',
+        'FAMAS Fernando Poe Jr. Memorial Award',
+        'Box Office Entertainment Awards Phenomenal Star',
+      ],
+      yearsActive: 25,
+      rating: 4.8,
+    ),
+    ActorModel(
+      id: 'actor-6',
+      name: 'Kathryn Bernardo',
+      alias: 'Asia\'s Superstar',
+      birthDate: 'March 26, 1996',
+      birthPlace: 'Cabanatuan City, Philippines',
+      category: 'Drama / Box Office',
+      biography:
+          'Kathryn Chandria Manuel Bernardo is widely acknowledged as the reigning Box Office Queen of Philippine Cinema. She made cinema history as the lead actress of the two highest-grossing Filipino films: Hello, Love, Goodbye and The Hows of Us.',
+      imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80',
+      famousWorks: [
+        'Hello, Love, Goodbye (2019)',
+        'The Hows of Us (2018)',
+        'Barcelona: A Love Untold (2016)',
+        'A Very Good Girl (2023)',
+        'KathNiel: She\'s Dating the Gangster (2014)',
+      ],
+      awards: [
+        'FAMAS Best Actress',
+        'Box Office Entertainment Awards Phenomenal Star',
+        'Seoul International Drama Awards Outstanding Asian Star',
+      ],
+      yearsActive: 21,
+      rating: 5.0,
+    ),
+  ];
+}
